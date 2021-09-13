@@ -1,0 +1,77 @@
+@charset "utf-8"
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    background: #F1F7ED;
+    padding: 5px;
+    margin: 20px;
+}
+
+#nav_color{
+    color: #197278;
+}
+
+.header{
+    margin: 5px;
+    float: inline-end;
+}
+
+body
+{
+    background-color: #0b181aff;
+    color: #F6E8EA;
+}  
+
+.titulo1
+{
+    padding: 10px;
+    text-align: center;
+} 
+
+footer{
+    padding: 25px;
+    background: #000000ff;
+    color: whitesmoke;
+}
+
+#characters
+{
+    background: #b1b2b5ff;
+    float: right;
+    padding: 5px;   
+    margin: 5px; 
+    height: 350px;
+    width: 250px;
+    display: inline;
+    text-align: center;
+}
+
+figure img:hover
+{
+    -webkit-transform: scale(1.2);
+    -webkit-transform: rotate(2deg);
+    border-radius:5px;
+}
+
+.padre{
+    display: flex;
+}
+
+.images{
+    margin-left: 450px;
+}
+
+.text_color{
+    color: #7a2c2cff;
+}
+
+.cap_color{
+    color: #b89c2cff;
+}
+
+.aside_color{
+    color: brown;
+}
