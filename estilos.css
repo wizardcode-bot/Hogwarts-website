@@ -7,16 +7,13 @@
 nav{
     background: #F1F7ED;
     padding: 5px;
-    margin: 20px;
+    margin: 5px;
 }
 
-#nav_color{
-    color: #197278;
-}
-
+/* sets the text style in the nav */
 .header{
     margin: 5px;
-    float: inline-end;
+    color: #197278;
 }
 
 body
@@ -25,18 +22,14 @@ body
     color: #F6E8EA;
 }  
 
-.titulo1
+/* sets the website title style */
+.title1
 {
     padding: 10px;
     text-align: center;
 } 
 
-footer{
-    padding: 25px;
-    background: #000000ff;
-    color: whitesmoke;
-}
-
+/* sets the aside styles */
 #characters
 {
     background: #b1b2b5ff;
@@ -47,31 +40,45 @@ footer{
     width: 250px;
     display: inline;
     text-align: center;
+    border-radius:10px;
 }
 
+/* sets the images style within a figcaption tag */
 figure img:hover
 {
     -webkit-transform: scale(1.2);
-    -webkit-transform: rotate(2deg);
-    border-radius:5px;
+    -webkit-transform: rotate(1deg);
+    border-radius:10px;
 }
 
+/* for displaying in columns */
 .padre{
     display: flex;
 }
 
+/* sets the images style */
 .images{
     margin-left: 450px;
+    border-radius:10px;
 }
 
+/* mostly used for the links text color */
 .text_color{
     color: #7a2c2cff;
 }
 
+/* for changing text color within figcaption tags */
 .cap_color{
     color: #b89c2cff;
 }
 
+/* setting the aside text color */
 .aside_color{
     color: brown;
+}
+
+footer{
+    padding: 25px;
+    background: #000000ff;
+    color: whitesmoke;
 }
