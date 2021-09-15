@@ -77,6 +77,10 @@ figure img:hover
     color: brown;
 }
 
+.Sbars{
+    border-radius:10px;
+}
+
 footer{
     padding: 25px;
     background: #000000ff;
