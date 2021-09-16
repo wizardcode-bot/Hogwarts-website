@@ -22,11 +22,27 @@ body
     color: #F6E8EA;
 }  
 
+/* sets the subtitles style */
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: lightcoral;
+    font-weight: 900;
+}
+
+/* sets the text size */
+.text_style{
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 /* sets the website title style */
 .title1
 {
     padding: 10px;
     text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: 100;
 } 
 
 /* sets the aside styles */
@@ -40,6 +56,7 @@ body
     width: 250px;
     display: inline;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     border-radius:10px;
 }
 
