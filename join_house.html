@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="iso-8559-1">
+    <!-- poner caracteres en español -->
     <meta charset="UTF-8">
     <meta name="description" content="Hogwarts website for entertainment, find your Hogwarts houses">
     <meta name="keywords" content="html5,css3, web design, Hogwarts">
@@ -15,14 +16,36 @@
     <link rel="stylesheet" href="estilos.css">
     <title>wizard</title>
 </head>
-<h1  class="titulo1"> Hogwarts Website </h1>
+<h1 class="title1" id="inicio"> Hogwarts Website </h1>
 <body>
     
     <header> 
         <nav> 
             <ol class="padre">
-                <p class="header"> <a href="index.html">Main</a> </p>
-                <p class="header"> <a href="houses.html">Houses</a> </p>
+                <a href="index.html" class="header">Main</a> 
+                <a href="houses.html" class="header">Houses</a>
+               <input type="search" class="header Sbars" placeholder="Search">
             </ol>
         </nav>
-    </header>
+    </header> 
+    
+    <section class="text_style">
+        <h2>Hey there wizard apprentice!</h2>
+
+        <form action="/formulario" method="POST">   
+            <label for="email">Email</label> 
+            <input id="email" type="email" required> 
+            <label for="password">Password</label>
+            <input id="password" type="password" required> <br> <br>
+            <textarea placeholder="Leave your feedback here..."></textarea> <br>
+            <input id="feedback" type="submit"> 
+        </form> <br>
+    </section>
+
+    
+
+
+
+
+</body>   
+</html> 
