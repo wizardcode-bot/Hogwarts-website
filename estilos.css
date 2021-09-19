@@ -90,6 +90,7 @@ figure img:hover
 .feedback{
     width: 400px;
     height: 100px;
+    border-radius: 5px;
 }
 
 /* for changing text color within figcaption tags */

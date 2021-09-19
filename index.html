@@ -4,6 +4,8 @@
     <meta charset="iso-8559-1">
     <!-- poner caracteres en español -->
     <meta charset="UTF-8">
+    <!-- adjusts the website width to the device it is being used -->
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
     <meta name="description" content="Hogwarts website for entertainment, find your Hogwarts houses">
     <meta name="keywords" content="html5,css3, web design, Hogwarts">
     <meta name="author" content="Edinson Fabian">
@@ -43,10 +45,10 @@
     <img src="imagenes/Hogwarts.png" alt="wizard experience" width="600" title="Hogwarts" class="images">
     <figcaption class="houses_text text_style">Wizards of the entire world come to study at Hogwarts</figcaption> 
 </figure>
-</section> <br>
+</section> <br> 
 
 <section class="text_style">
-    <h2>About the website</h2>
+    <h2 class="houses_text">About the website</h2>
     <p>This website was created to inform people about the greatness of this magic school named Hogwarts, were thousands of wizards, witches and other magic creatures have grown up and developed their skills. <br>
     You could also check the Hogwarts houses and find out which you feel more identified with. </p>
 
@@ -107,13 +109,13 @@
         <a href="#inicio"class="button">Go to top</a>
     </button> <br>
     <form action="/formulario" method="POST"> 
-        <p>How did you like this Website?</p>  
-        <textarea placeholder="Leave your feedback here..." class="feedback"></textarea> <br>
+        <label for="feedback"><p>How did you like this Website?</p></label>
+        <textarea placeholder="Leave your feedback here..." class="feedback" id="feedback"></textarea> <br>
         <input type="submit"> 
     </form> <br>
     <a href="mailto:fabianguzzman@gmail.com" class="text_color">Contact me here</a> <br>
     
-    <p>All right reserved 2021</p>
+    <p>All right reserved &copy; 2021</p>
 </footer>
 
 </body>    

@@ -3,6 +3,8 @@
 <head>
     <meta charset="iso-8559-1">
     <meta charset="UTF-8">
+    <!-- adjusts the website width to the device it is being used -->
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
     <meta name="description" content="Hogwarts website for entertainment, find your Hogwarts houses">
     <meta name="keywords" content="html5,css3, web design, Hogwarts">
     <meta name="author" content="Edinson Fabian">
@@ -37,18 +39,18 @@
             <a href="#Hufflepuff" class="text_color">Go to next house</a>
         </hgroup>
 <figure>
-    <img src="imagenes/gryffindor.jpg" alt="gryffindor house" width="400">
+    <img src="imagenes/gryffindor.jpg" alt="Gryffindor house" width="400" class="Sbars" title="Gryffindor house">
     <figcaption class="cap_color">Founded by Godric Gryffindor</figcaption> <a href="https://www.wizardingworld.com/features/famous-gryffindors-through-the-ages" target="_blank" class="text_color">Discover some Famous Gryffindors!</a>
 </figure>
 
-<p> 
-    <i>
+<p>
+    <dfn>
         "You might belong in Gryffindor, <br>
         Where dwell the brave at heart,  <br>
         Their daring, nerve, and chivalry <br>
         Set Gryffindors apart" <br>
-        <strong> -The Sorting Hat </strong>
-    </i>
+    </dfn> 
+    <cite> -The Sorting Hat </cite>
 </p> 
 
 <p>
@@ -67,19 +69,20 @@
         </hgroup>
 
     <figure>
-        <img src="imagenes/Hufflepuff.jpg" alt="Hufflepuff house" width="400">
+        <img src="imagenes/Hufflepuff.jpg" alt="Hufflepuff house" width="400" class="Sbars" title="Hufflepuff house">
         <figcaption class="cap_color">Founded by Helga Hufflepuff</figcaption> <a href="https://www.wizardingworld.com/writing-by-jk-rowling/hufflepuff-common-room" target="_blank" class="text_color">Chek out the Hufflepuff Common Room!</a>
     </figure>
 
-    <p> 
-        <i>
-            ‘You might belong in Hufflepuff <br>
-            Where they are just and loyal   <br>
-            Those patient Hufflepuffs are true  <br>
-            And unafraid of toil.’  <br>
-            <strong> -Harry Potter and the Philosopher’s Stone. </strong>
-        </i>
-    </p> 
+<p>     
+    <dfn>
+        ‘You might belong in Hufflepuff <br>
+        Where they are just and loyal   <br>
+        Those patient Hufflepuffs are true  <br>
+        And unafraid of toil.’ <br>
+    </dfn>  
+    <cite>-Harry Potter and the Philosopher’s Stone. </cite>
+    
+</p> 
 
     <p>
         You probably know that some of Hufflepuff’s most renowned members include Nymphadora Tonks and Cedric Diggory. But did you know that Hufflepuff’s house ghost, the Fat Friar, still resents the fact he was never made a cardinal? Or that Hufflepuff has produced the fewest Dark wizards of any house at Hogwarts?
@@ -97,19 +100,19 @@
         </hgroup>
 
     <figure>
-        <img src="imagenes/Ravenclaw.jpg" alt="Ravenclaw house" width="410">
+        <img src="imagenes/Ravenclaw.jpg" alt="Ravenclaw house" width="410" class="Sbars" title="Ravenclaw house">
         <figcaption class="cap_color">Founded by Rowena Ravenclaw</figcaption> <a href="https://www.wizardingworld.com/features/famous-ravenclaws-through-the-ages" target="_blank" class="text_color">Famous Ravenclaws through the ages</a>
     </figure>
 
-    <p>
-        <i>
-            ‘Or yet in wise old Ravenclaw <br>
-            If you’ve a ready mind <br>
-            Where those of wit and learning <br>
-            Will always find their kind.’ <br>
-            <strong> Harry Potter and the Philosopher’s Stone </strong>
-        </i>
-    </p>
+<p>
+    <dfn>
+        ‘Or yet in wise old Ravenclaw <br>
+        If you’ve a ready mind <br>
+        Where those of wit and learning <br>
+        Will always find their kind.’ <br>
+    </dfn>
+    <cite>-Harry Potter and the Philosopher’s Stone </cite>
+</p>
 
     <p>
         Members of this house were characterised by their wit, learning, and wisdom. The emblematic animal symbol was an eagle, and blue and bronze were its colours. The Head of Ravenclaw was Filius Flitwick, and the House ghost was the Grey Lady,real name Helena Ravenclaw, daughter of Rowena.
@@ -126,19 +129,19 @@
         </hgroup>
 
     <figure>
-        <img src="imagenes/Slytherin.jpg" alt="Slytherin house" width="410">
+        <img src="imagenes/Slytherin.jpg" alt="Slytherin house" width="410" class="Sbars" title="Slytherin house">
         <figcaption class="cap_color">Founded by Salazar Slytherin</figcaption> <a href="https://www.wizardingworld.com/outcome/slytherin" target="_blank" class="text_color">Curios fact about this house</a>
     </figure>
 
-    <p>
-        <i>
-            ‘Or perhaps in Slytherin <br>
-            You’ll make your real friends <br>
-            Those cunning folk use any means <br>
-            To achieve their ends.’ <br>
-            <strong> Harry Potter and the Philosopher’s Stone </strong>
-        </i>
-    </p>
+<p>
+    <dfn>
+        ‘Or perhaps in Slytherin <br>
+        You’ll make your real friends <br>
+        Those cunning folk use any means <br>
+        To achieve their ends.’ <br>
+    </dfn>
+    <cite>-Harry Potter and the Philosopher’s Stone</cite> 
+</p>
 
     <p>
         Slytherins are known for being cunning and ambitious, although it is also known to have produced many Dark witches and wizards. According to J.K. Rowling, Slytherin roughly corresponds to the element of water.
@@ -156,12 +159,12 @@
         <a href="#inicio" class="button">Go to top</a>
     </button> <br>
     <form action="/formulario" method="POST">  
-        <p>How did you like this Website?</p>  
-        <textarea placeholder="Leave your feedback here..." class="feedback"></textarea> <br>
+        <label for="feedback"> <p>How did you like this Website?</p></label>  
+        <textarea placeholder="Leave your feedback here..." class="feedback" id="feedback"></textarea> <br>
         <input type="submit"> <br>
     </form> <br>
     <a href="mailto:fabianguzzman@gmail.com" class="text_color">Contact me here</a> <br>
-    <p>All rights reserved 2021</p>
+    <p>All rights reserved &copy; 2021</p>
 </footer>
 
 </body>    
