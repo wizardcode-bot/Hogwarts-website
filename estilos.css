@@ -4,16 +4,42 @@
     padding: 0px;
 }
 
+header{
+    padding: 60px;
+}
+
 nav{
-    background: #F1F7ED;
+    background: #CEB5A7;
     padding: 5px;
-    margin: 5px;
+    font-weight: 800;
+}
+
+nav li{
+    display: inline;
+    padding: 15px;
+}
+
+#navli:hover {
+    background-color: #E5BE9E;
+    border-radius: 15px;
+    transition: ease 1s;
+    padding: 15px;
+    cursor: pointer;
 }
 
 /* sets the text style in the nav */
 .header{
-    margin: 5px;
-    color: #197278;
+    /* padding: 10px; */
+    list-style: none;
+    text-decoration: none;
+    color: #070707;
+}
+
+#logo{
+    float: left;
+    margin-left: 120px;
+    width:250px;
+    position: relative;
 }
 
 body
@@ -41,11 +67,13 @@ h2{
 /* sets the website title style */
 .title1
 {
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
-    font-size: 50px;
+    font-size: 70px;
     font-family: monospace;
     font-weight: 100;
+    display: inline;
+    margin-left: 50px;
 } 
 
 /* sets the aside styles */
@@ -55,7 +83,7 @@ h2{
     float: right;
     padding: 5px;   
     margin: 5px; 
-    height: 350px;
+    height: max-content;
     width: 250px;
     display: inline;
     text-align: center;
@@ -82,6 +110,12 @@ figure img:hover
     border-radius:10px;
 }
 
+/* sets style for houses images */
+.hsimages{
+    margin: auto;
+    border-radius:10px;
+}
+
 /* mostly used for the links text color */
 .text_color{
     color: #7a2c2cff;
@@ -91,6 +125,12 @@ figure img:hover
     width: 400px;
     height: 100px;
     border-radius: 5px;
+}
+
+hr{
+    margin-left: 50px;
+    margin-right: 50px;
+    color: antiquewhite;
 }
 
 /* for changing text color within figcaption tags */
@@ -105,6 +145,20 @@ figure img:hover
 
 .Sbars{
     border-radius:10px;
+    margin-left: 650px;
+    padding: 8px;
+}
+
+
+
+/* sets the style for the houses image in main */
+#hgimage{
+    float: right;
+    width: 700px;
+    margin-right: 250px;
+    margin-top: 90px;
+    border-radius: 10px;
+    border: 5px 5px 5px 5px white;
 }
 
 .button{
