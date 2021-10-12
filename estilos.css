@@ -9,7 +9,7 @@ header{
 }
 
 nav{
-    background: #CEB5A7;
+    background-image: linear-gradient( #C799A6, #CEB5A7, #EEABC4);
     padding: 5px;
     font-weight: 800;
 }
@@ -17,10 +17,11 @@ nav{
 nav li{
     display: inline-block;
     padding: 15px;
+    border-radius: 15px;
 }
 
 #navli:hover {
-    background-color: #E5BE9E;
+    background-image: linear-gradient( #CEB5A7, #EEABC4);
     border-radius: 15px;
     transition: ease 1s;
     padding: 15px;
@@ -34,6 +35,7 @@ nav li{
     color: #070707;
 }
 
+/* style for the website header logo */
 #logo{
     float: left;
     margin-left: 120px;
@@ -43,7 +45,8 @@ nav li{
 
 body
 {
-    background-color: #0b181aff;
+    /* background-color: #0b181aff; */
+    background-image: linear-gradient(#001011, #0b181aff, #000500, #470023ef);
     color: #F6E8EA;
     margin: auto;
 }  
@@ -65,6 +68,7 @@ h2{
 #mainsub{
     text-align: center;
     font-size: 50px;
+    text-shadow: 2px 2px 5px #6D1A36;
 }
 
 #maintxt{
@@ -72,14 +76,20 @@ h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+/* style for the big image in home */
 #mainimg{
-    width: 900px;
+    width: 800px;
     height: 500px;
     margin-left: 350px;
     margin-right: 200px;
     margin-top: 50px;
     margin-bottom: 50px;
     border-radius: 20px;
+    transition: width 2s;
+}
+
+#mainimg:hover{
+    width: 850px;
 }
 
 /* sets the text size */
@@ -95,7 +105,6 @@ h2{
 /* sets the website title style */
 .title1
 {
-    /* padding: 10px; */
     text-align: center;
     font-size: 70px;
     font-family: monospace;
@@ -163,17 +172,23 @@ hr{
     border-radius:10px;
     margin-left: 650px;
     padding: 8px;
+    cursor: help;
 }
 
 .button{
-    background:wheat;
+    background-image: linear-gradient( #ddceb8, #d1bdac);
     color: #0b181aff;
     width: 80px;
-    height: 30px;
+    height: 35px;
     border-radius: 10px;
     font-weight: 700;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-decoration: none;
+}
+
+.button:hover{
+    background-image: linear-gradient(20deg, #CC978E, #ddceb8);
+    color: #FFEDE1;
 }
 
 .botonsito{
@@ -186,9 +201,80 @@ hr{
     margin-top: 215px;
 }
 
+.formulario{
+    margin-left: 30em;
+    margin-right: 30em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    border: 2px dashed white;
+    padding: 3em;
+    background: #66635b36;
+    border-radius: 10px;
+}
+
+.casillas{
+    padding: 0.8em;
+    text-align: center;
+}
+
+#expedicion{
+    padding-left: 10px;
+}
+
+#birth{
+    padding-left: 10px;
+}
+
+input{
+    border-radius: 7px;
+    background: #F3E9DC;
+}
+
+input:hover{
+    background-image: linear-gradient( to right, #D6D1B1, #dbe09e);
+}
+
+input:placeholder-shown{
+    padding-left: 10px;
+    color: black;
+}
+
+.subBoton{
+    background-image: linear-gradient(to right, #80615f, #E0AC9D);
+    width: 25em;
+    height: 3em;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.subBoton:hover{
+    background-image: linear-gradient( #80615f, #E0AC9D);
+}
+
+button p{
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+}
+
+form input{
+    width: 25em;
+    height: 3em;
+}
+
 footer{
     padding: 25px;
-    background: #000000ff;
+    background-image: linear-gradient(to top, #000500, #000000ff);
     color: whitesmoke;
+}
+
+.footimg{
+    width: 10em;
+}
+
+.footlogo{
+    position: absolute;
+    margin-left: 85em;
+    margin-bottom: 40em;
 }
 
