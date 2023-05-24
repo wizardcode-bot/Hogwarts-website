@@ -278,3 +278,10 @@ footer{
     margin-bottom: 40em;
 }
 
+.ok{
+    color: white;
+    background-color: #6D1A36;
+    width: 100vw;
+    padding: 25px;
+    text-align: center;
+}
